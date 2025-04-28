@@ -70,6 +70,8 @@ print(f"Predicted value: {pre}")
 ## Output:
 ### Data Information and value of X
 ![image](https://github.com/user-attachments/assets/49b326e4-bb9f-4d70-929c-535c4616d9b9)
+![image](https://github.com/user-attachments/assets/7b9b3765-f500-4b2e-a347-adbc209b4c34)
+
 
 ### Value of y
 ![Screenshot 2025-04-27 094528](https://github.com/user-attachments/assets/056b2a63-e375-4e4d-b3ee-ba6ce72ae88a)
