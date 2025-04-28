@@ -8,17 +8,29 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Import necessary libraries for numerical operations, data handling, and preprocessing.
 
+2.Load the startup dataset (50_Startups.csv) using pandas.
+
+3.Extract feature matrix X and target vector y from the dataset.
+
+4.Convert feature and target values to float and reshape if necessary.
+
+5.Standardize X and y using StandardScaler.
+
+6.Add a column of ones to X to account for the bias (intercept) term.
+
+7.Initialize model parameters (theta) to zeros.
+
+8.Perform gradient descent to update theta by computing predictions and adjusting for error.
+
+9.Input a new data point, scale it, and add the intercept term.
+
+10.Predict the output using learned theta, then inverse-transform it to get the final result.
 ## Program:
 ```
-/*
-Program to implement the linear regression using gradient descent.
-Developed by: Varun A
-RegisterNumber:212224240178
+
+
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
@@ -32,7 +44,6 @@ def linear_regression(X1,y,learning_rate=0.01,num_iters=1000):
     return theta
 data=pd.read_csv('50_Startups.csv',header=None)
 print(data.head())
-
 X=(data.iloc[1:, :-2].values)
 print(X)
 X1=X.astype(float)
@@ -52,20 +63,22 @@ pre=scaler.inverse_transform(prediction)
 print(f"Predicted value: {pre}")
 
 
+
 */
 ```
 
 ## Output:
-![scree_page-0001](https://github.com/user-attachments/assets/e6d99b8c-5eb2-498f-a1bb-04b0deb4eed6)
+### Data Information and value of X
+![Screenshot 2025-04-27 094521](https://github.com/user-attachments/assets/4b462bcc-0653-4b35-8199-7f9b4a5f0893)
+### Value of y
+![Screenshot 2025-04-27 094528](https://github.com/user-attachments/assets/056b2a63-e375-4e4d-b3ee-ba6ce72ae88a)
+### Value of X1_scaled
+![Screenshot 2025-04-27 094536](https://github.com/user-attachments/assets/64185da3-1e66-4755-bfef-84f72e636a51)
+### Value of y1_scaled
+![Screenshot 2025-04-27 094542](https://github.com/user-attachments/assets/5737ec51-4b34-4e87-8f82-6bc87b0e80b8)
+### Predicted Value
+![Screenshot 2025-04-27 094548](https://github.com/user-attachments/assets/5a960507-be16-45d3-a35f-f0c08efeb663)
 
-![scree_page-0002](https://github.com/user-attachments/assets/270a2f71-00e4-45f8-8711-fc44614553bd)
-
-![scree_page-0003](https://github.com/user-attachments/assets/818d0c08-166a-4651-b276-59572797cd86)!
-[scree_page-0004](https://github.com/user-attachments/assets/eddc8241-7306-4441-b798-1e0dec6e6823)
-
-![scree_page-0005](https://github.com/user-attachments/assets/7b60139c-0656-44d1-bfb3-1c6d0f0bb50b)
-
-![scree_page-0006](https://github.com/user-attachments/assets/385d963f-8015-4e3e-b681-c9b8e4e5f919)
 
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
