@@ -64,12 +64,13 @@ print(f"Predicted value: {pre}")
 
 
 
-*/
+
 ```
 
 ## Output:
 ### Data Information and value of X
-![Screenshot 2025-04-27 094521](https://github.com/user-attachments/assets/4b462bcc-0653-4b35-8199-7f9b4a5f0893)
+![image](https://github.com/user-attachments/assets/49b326e4-bb9f-4d70-929c-535c4616d9b9)
+
 ### Value of y
 ![Screenshot 2025-04-27 094528](https://github.com/user-attachments/assets/056b2a63-e375-4e4d-b3ee-ba6ce72ae88a)
 ### Value of X1_scaled
@@ -77,7 +78,8 @@ print(f"Predicted value: {pre}")
 ### Value of y1_scaled
 ![Screenshot 2025-04-27 094542](https://github.com/user-attachments/assets/5737ec51-4b34-4e87-8f82-6bc87b0e80b8)
 ### Predicted Value
-![Screenshot 2025-04-27 094548](https://github.com/user-attachments/assets/5a960507-be16-45d3-a35f-f0c08efeb663)
+![image](https://github.com/user-attachments/assets/1b6b8c70-274c-4dbc-bf04-ddc8bc682207)
+
 
 
 ## Result:
